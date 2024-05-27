@@ -11,7 +11,7 @@ const PORT = 3000;
 app.use(bodyParser.json()); 
 
 // Secret partagé (même que celui utilisé sur GitHub)
-const secret = 'votre_secret_partage';
+const secret = 'zayed';
 
 // Fonction pour vérifier la signature
 function verifySignature(req, res, buf, encoding) {
